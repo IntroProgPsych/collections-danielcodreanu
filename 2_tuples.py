@@ -12,3 +12,14 @@
 
 # Write your code here:
 person = ("Alice", 21)
+name, age = person
+
+def print_person(name, age):
+    print(f"{name} is {age} years old")
+
+
+print_person(name,age)
+ 
+
+
+
